@@ -1,0 +1,82 @@
+body{
+    background: lightblue;
+    display: flex;
+    margin : 200px;
+    margin-left: 250px;
+    
+}
+h1{
+    color: blue;
+}
+.form
+{
+    border: 1px black solid;
+    width: 30%;
+    line-height: 53px;
+    margin-left: 90px;
+    text-align: center;
+    border-radius: 8px;
+    background: white;
+
+
+}
+input{
+    width: 250px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px 0px 5px 0px;
+}
+button{
+    width: 250px;
+    height: 30px;
+    background-color: #1877f2;
+    color: white;
+}
+.fb
+{
+    /* margin-top: 150px; */
+    /* margin-left: 100px; */
+    p {
+        font-size: 23px;
+    }
+    h1{
+        font-size: 55px;
+    }
+    animation: nav 2s infinite;
+   
+}
+@keyframes nav{
+    0%
+    {
+        opacity: 0;
+    }
+    25%
+    {
+        opacity: 0.2;
+    }
+    50%
+    {
+        opacity: 0.5;
+    }
+    75%
+    {
+        opacity: 0.75;
+    }
+    100%
+    {
+        opacity: 1;
+    }
+}
+.aa
+{
+    margin-top: 50px;
+    a{
+        color: black;
+    }
+}
+.acc
+{
+    button{
+        background-color: rgb(9, 6, 1);
+    }
+}
